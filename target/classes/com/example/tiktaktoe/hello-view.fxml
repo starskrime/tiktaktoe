@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="428.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tiktaktoe.MainController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="B1" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="100.0" prefWidth="163.0" text="B1" />
+                  <Button fx:id="B2" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="100.0" prefWidth="163.0" text="B2" />
+                  <Button fx:id="B3" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="100.0" prefWidth="163.0" text="B3" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="B4" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="100.0" prefWidth="163.0" text="B4" />
+                  <Button fx:id="B5" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="100.0" prefWidth="163.0" text="B5" />
+                  <Button fx:id="B6" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="100.0" prefWidth="163.0" text="B6" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="B7" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="100.0" prefWidth="163.0" text="B7" />
+                  <Button fx:id="B8" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="100.0" prefWidth="163.0" text="B8" />
+                  <Button fx:id="B9" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="100.0" prefWidth="163.0" text="B9" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>
